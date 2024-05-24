@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
 
-app.use('/v0',  RapidAPIController);
+// app.use('/v0',  RapidAPIController);
 
 /**
  * Pour toutes les autres routes non définies, on retourne une erreur
